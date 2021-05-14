@@ -1,0 +1,14 @@
+spring:
+  mvc:
+    throw-exception-if-no-handler-found: true
+  profiles: local
+
+pricing:
+  endpoint: http://127.0.0.1/pricing?q={ids}
+
+shipment:
+  endpoint: http://127.0.0.1/shipments?q={ids}
+
+tracking:
+  endpoint: http://127.0.0.1/track?q={ids}
+
